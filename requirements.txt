@@ -1,0 +1,4 @@
+# 项目依赖
+# python==3.8.6
+# 由于是Windows进程管理，主要使用内置的psutil库
+psutil==5.9.8
