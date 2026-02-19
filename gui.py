@@ -260,10 +260,9 @@ class ACEProcessMonitor:
         save_btn = ttk.Button(config_frame, text="保存", command=save_config)
         save_btn.pack(pady=10)
 
-def main():
+
+if __name__ == "__main__":
     root = tk.Tk()
     app = ACEProcessMonitor(root)
     root.mainloop()
-
-if __name__ == "__main__":
-    main()
+    
